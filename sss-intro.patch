@@ -1,0 +1,27 @@
+diff --git a/src/main/java/com/example/demo/AAA.java b/src/main/java/com/example/demo/AAA.java
+new file mode 100644
+index 0000000..d73e11c
+--- /dev/null
++++ b/src/main/java/com/example/demo/AAA.java
+@@ -0,0 +1,9 @@
++package com.example.demo;
++
++public class AAA {
++
++    int x = 10;
++    public void draw() {
++
++    }
++}
+diff --git a/src/main/java/com/example/demo/BB.java b/src/main/java/com/example/demo/BB.java
+index 35b2e8d..52f8b7c 100644
+--- a/src/main/java/com/example/demo/BB.java
++++ b/src/main/java/com/example/demo/BB.java
+@@ -3,4 +3,7 @@ package com.example.demo;
+ public class BB {
+ 
+     public void draw() {}
++
++    public void draw1() {}
++
+ }

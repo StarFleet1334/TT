@@ -1,0 +1,46 @@
+From 9164c3842babb13733bbdad7ae713fbf3379f468 Mon Sep 17 00:00:00 2001
+From: IliaLataria01 <latariailia6@gmail.com>
+Date: Mon, 19 Aug 2024 11:48:10 +0400
+Subject: [PATCH] initial commitss
+
+---
+ patch-issue-2.patch                    | 11 +++++++++++
+ src/main/java/com/example/demo/AA.java |  8 --------
+ 2 files changed, 11 insertions(+), 8 deletions(-)
+ create mode 100644 patch-issue-2.patch
+ delete mode 100644 src/main/java/com/example/demo/AA.java
+
+diff --git a/patch-issue-2.patch b/patch-issue-2.patch
+new file mode 100644
+index 0000000..0271a4a
+--- /dev/null
++++ b/patch-issue-2.patch
+@@ -0,0 +1,11 @@
++diff --git a/src/main/java/com/example/demo/BB.java b/src/main/java/com/example/demo/BB.java
++index 60e994a..35b2e8d 100644
++--- a/src/main/java/com/example/demo/BB.java
+++++ b/src/main/java/com/example/demo/BB.java
++@@ -1,4 +1,6 @@
++ package com.example.demo;
++ 
++ public class BB {
+++
+++    public void draw() {}
++ }
+diff --git a/src/main/java/com/example/demo/AA.java b/src/main/java/com/example/demo/AA.java
+deleted file mode 100644
+index 0245f56..0000000
+--- a/src/main/java/com/example/demo/AA.java
++++ /dev/null
+@@ -1,8 +0,0 @@
+-package com.example.demo;
+-
+-public class AA {
+-
+-    void dd() {
+-
+-    }
+-}
+-- 
+2.37.1 (Apple Git-137.1)
+

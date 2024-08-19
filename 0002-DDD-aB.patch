@@ -1,0 +1,23 @@
+From 89d84b78b57f2e7b53ed4f9c1efa488b85fe652e Mon Sep 17 00:00:00 2001
+From: IliaLataria01 <latariailia6@gmail.com>
+Date: Fri, 16 Aug 2024 11:44:54 +0400
+Subject: [PATCH 2/3] DDD:aB
+
+---
+ src/main/java/com/example/demo/BB.java | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/main/java/com/example/demo/BB.java b/src/main/java/com/example/demo/BB.java
+index 60e994a..35b2e8d 100644
+--- a/src/main/java/com/example/demo/BB.java
++++ b/src/main/java/com/example/demo/BB.java
+@@ -1,4 +1,6 @@
+ package com.example.demo;
+ 
+ public class BB {
++
++    public void draw() {}
+ }
+-- 
+2.37.1 (Apple Git-137.1)
+
