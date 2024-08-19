@@ -1,0 +1,11 @@
+diff --git a/src/main/java/com/example/demo/BB.java b/src/main/java/com/example/demo/BB.java
+index 60e994a..35b2e8d 100644
+--- a/src/main/java/com/example/demo/BB.java
++++ b/src/main/java/com/example/demo/BB.java
+@@ -1,4 +1,6 @@
+ package com.example.demo;
+ 
+ public class BB {
++
++    public void draw() {}
+ }
